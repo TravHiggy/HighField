@@ -1,0 +1,63 @@
+.user-details-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .user-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-details-table th, .user-details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-details-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-details-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-details-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  .section-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .property-table-container {
+    margin-top: 20px;
+  }
+  
+  .property-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .property-table th, .property-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .property-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .property-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .property-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  .allData {
+    padding: 12px;
+    margin: 6px;
+  }

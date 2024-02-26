@@ -1,0 +1,34 @@
+
+<div *ngIf="data" class="allData">
+  <h2 class="section-heading">Favourite Colours</h2>
+  <div class="property-table-container">
+    <app-property-table [data]="data.favouriteColours" tableName="Favourite Colours" property="colour"></app-property-table>
+  </div>
+  
+
+  <h2 class="user-details-heading">User Details</h2>
+  <table class="user-details-table">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Date of Birth</th>
+        <th>Current Age</th>
+        <th>Age + 20 Years</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of data.userDetails">
+        <td>{{ user.firstName }}</td>
+        <td>{{ user.lastName }}</td>
+        <td>{{ user.dob}}</td>
+        <td>{{ user.currentAge }}</td>
+        <td>{{ user.agePlus20 }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div *ngIf="!data">
+  <H1>Error loading data from api</H1>
+</div>
+<router-outlet />
